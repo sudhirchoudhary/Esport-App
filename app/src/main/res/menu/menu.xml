@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_addAcc"
+        android:orderInCategory="100"
+        android:title="Add Account"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_bio"
+        android:orderInCategory="100"
+        android:title="Add Game Biodata"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_myprofile"
+        android:orderInCategory="100"
+        android:title="My Profile"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_contact"
+        android:orderInCategory="100"
+        android:title="Contact Us"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_logout"
+        android:orderInCategory="100"
+        android:title="Logout"
+        app:showAsAction="never"/>
+
+</menu>

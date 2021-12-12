@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "131506144162",
+    "firebase_url": "https://esport3-7ebf3.firebaseio.com",
+    "project_id": "esport3-7ebf3",
+    "storage_bucket": "esport3-7ebf3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:131506144162:android:cc1c41d2af7b4a04e7e8fb",
+        "android_client_info": {
+          "package_name": "com.example.esport3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "131506144162-7le149k2hsme46299ben2ajqbl2loeeg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.esport3",
+            "certificate_hash": "1a1aead42dc73cd415ae270acccd1a314951e74f"
+          }
+        },
+        {
+          "client_id": "131506144162-b3h0s0vaqm4ieic8uk7k8ud0msbu2gh6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQgaYMWiHUEW6ggiKxI_9QJkT970CN6rQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "131506144162-b3h0s0vaqm4ieic8uk7k8ud0msbu2gh6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

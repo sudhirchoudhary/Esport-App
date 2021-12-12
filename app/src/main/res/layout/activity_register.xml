@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        />
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="8dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:elevation="10dp"
+        android:layout_marginTop="210dp">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ProgressBar
+                    android:id="@+id/player_progressbar"
+                    style="?android:attr/progressBarStyleLarge"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:indeterminateDrawable="@drawable/custom_progressbar"
+                    android:visibility="invisible"/>
+
+                <TextView
+                    android:id="@+id/homelogo2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:text="Register"
+                    android:textSize="40sp"
+                    />
+
+                <EditText
+                    android:id="@+id/nameid"
+                    android:layout_width="255dp"
+                    android:layout_below="@+id/homelogo2"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:layout_centerHorizontal="true"
+                    android:background="#11000000"
+
+                    android:ems="10"
+                    android:hint="Username"
+                    android:inputType="textPersonName" />
+                <EditText
+                    android:id="@+id/emailid"
+                    android:layout_width="255dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@+id/nameid"
+                    android:layout_alignStart="@+id/nameid"
+                    android:layout_alignLeft="@+id/nameid"
+                    android:layout_marginTop="40dp"
+                    android:background="#11000000"
+
+                    android:ems="10"
+                    android:hint="Email"
+                    android:inputType="textEmailAddress"
+                    android:textSize="17dp" />
+
+                <EditText
+                    android:id="@+id/passid"
+                    android:layout_width="255dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/emailid"
+                    android:layout_alignStart="@+id/emailid"
+                    android:layout_alignLeft="@+id/emailid"
+                    android:layout_marginTop="40dp"
+                    android:background="#11000000"
+
+                    android:ems="10"
+                    android:hint="Password"
+                    android:inputType="textPassword" />
+
+
+
+                <Button
+                    android:id="@+id/Registerbtn"
+                    android:layout_width="237dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/passid"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="30dp"
+                    android:text="REGISTER"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorPrimary"
+                    android:background="@drawable/red_dot"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/editText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/Registerbtn"
+                    android:layout_marginLeft="70dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginBottom="20dp"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:text="Already user? login"
+                    />
+            </RelativeLayout>
+        </ScrollView>
+
+
+
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
